@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 m-0" style="overflow-x: hidden;">
+        <!-- news  -->
+        <div class="row fixed-top" style="background: linear-gradient(90deg,white, rgb(131, 131, 195));">
+            <div class="col-md-12">
+                <marquee behavior="scroll" direction="left" scrollamount="8" style="color: #004080;font-size: 18px;font-weight: bold;">
+                   " Welcome to IRCTC! India’s railway gateway — fast, secure, and reliable bookings.
+Your journey begins here.  IRCTC — powering millions of journeys across India.
+Fast bookings, real-time updates, and trusted service.
+ "
+
+                </marquee>
+            </div>
+        </div>
+        <!-- news end  -->
+
+        <!-- navbar start -->
+        <div class="row p-0 m-0 fixed-top mt-4">
+            <div class="col-md-12 p-0 m-0">
+                <nav class="navbar navbar-expand-lg nav_bg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand ms-4" href="index.htmlx">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto  mb-2 mb-lg-0 fs-5 fw-bold  ">
+                                <li class="nav-item">
+                                    <a class="nav-link p-3  rounded-2" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3  rounded-2" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3  rounded-2" href="ticket_booking.html">Ticket Booking</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3  rounded-2" href="gallary.html">Gallary</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3  rounded-2" href="registration.html">Registration</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link p-3 rounded-2" href="login.html">Login</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <a class="navbar-brand me-4" href="#">
+                            <img src="images/secondry-logo.png" alt="">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- slider start -->
+        <div class="row mt-5">
+            <div class="col-md-12 mt-5 slider">
+                <div class="row mt-5">
+                    <div class="col-md-6 ">
+                        <div class="card mx-2 mt-4 rounded-3 p-3">
+                            <form action="">
+                                <table class="table border-none">
+                                    <tr>
+                                        <td><a href="#" class="btn btn-primary form-control">PNR STATUS</a></td>
+                                        <td><a href="#" class="btn btn-primary form-control">CHARTS / VACANCY</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <h3 class="text-center">TICKET BOOKING</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" class="form-control" placeholder="Form"></td>
+                                        <td><input type="text" class="form-control" placeholder="To"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="date" class="form-control"></td>
+                                        <td>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">All Classes</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Select class</option>
+                                                <option value="">GENERAL</option>
+                                                <option value="">SLEEPER</option>
+
+                                                 <option value="">FIRST AC</option>
+                                                  <option value="">SECOND AC</option>
+                                                   <option value="">THIRD AC</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <a href="" class="btn  form-control text-white fw-bold"
+                                                style="background-color:orangered;">SEARCH</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                        <div class="card mx-2 mt-2 mb-4 p-3">
+                            <p class=" fw-bold text-center" style="font-size: 12px;">
+                                <span class="text-primary"> Customers can use enhanced interface for their IRCTC related
+                                    queries!! https://equery.irctc.co.in</span> <br>
+                                <span class="text-danger"> Customer Care Numbers : 14646/08044647999 /08035734999</span>
+                                <br>
+                                <span class="text-info">BEWARE OF FRAUDSTERS: Always download official IRCTC Rail
+                                    Connect App from the Google Play Store or Apple App Store only.</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="text-center mt-5 fw-bold slider_h1">INDIAN RAILWAY</h1>
+                        <pre class="text-center fs-4">Safety | Security | Punctually</pre>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--  slider end -->
+        <!-- ramayan start -->
+        <div class="row mt-3 mb-4">
+            <div class="col-md-8 mx-auto">
+                <img src="images/ramayan_yatra .jpeg" width="100%" alt="">
+            </div>
+        </div>
+        <!-- ramayan end -->
+        <!-- writeen start  -->
+        <div class="row mt-5">
+            <div class="col-md-6 mx-auto text-center text-justify ">
+                <h1 class="fs-1 fw-bold ">Have you not found the right one?
+                    <br>Find a service suitable for you here.
+                </h1>
+            </div>
+        </div>
+        <!-- writeen end  -->
+        <!-- icon section -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col">h</div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- icon section -->
+        <!-- Holiday ssection start  -->
+        <div class="row">
+            <div class="col-md-9 mx-auto">
+                <!-- row 1 -->
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="card h-100 shadow-lg">
+                            <img src="images/exterior.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title  p-1">Maharajas' Express</h3>
+                                <p class="card-text pt-1 px-2">Redefining Royalty, Luxury and Comfort, Maharajas'
+                                    express
+                                    takes
+                                    you on a sojourn to the era of bygone stately splendour of princely states. Sylvan
+                                    furnishings, elegant ambience and modern amenities are amalgamated for an
+                                    “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by
+                                    World Travel Awards consecutively for last six years</p>
+                                <a href="#" class=" ps-2">Read More --&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-lg">
+                            <img src="images/Thailand.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title  p-2">International Packages</h3>
+                                <p class="card-text p-2">Best deals in International Holiday packages, handpicked by
+                                    IRCTC, for Thailand, Dubai, Sri Lanka, Hong Kong, China, Macau, Bhutan, Nepal, U.K.,
+                                    Europe, USA, Australia etc. The packages are inclusive of sightseeing, meals, visa
+                                    charges and overseas medical insurance to give you a hassle-free and memorable
+                                    experience</p>
+                                <a href="#" class=" ps-2">Read More --&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-lg">
+                            <img src="images/Kashmir.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title  p-2">Domestic Air Packages</h3>
+                                <p class="card-text p-2">Be it the spiritual devotee seeking blessings of Tirupati,
+                                    Shirdi or Mata Vaishno Devi or the leisure traveller wanting to relish the Blue
+                                    mountains of North East, Sand-dunes of Rajasthan, Hamlets of Ladakh, Wonders of
+                                    Himalayas, Serene lakes or Picturesque Islands, IRCTC has it all. Discover India
+                                    through IRCTC!</p>
+                                <a href="#" class=" ps-2">Read More --&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 1 end  -->
+                <!-- row 2-->
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-lg">
+                            <img src="images/Bharat_Gaurav.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title  p-2">Bharat Gaurav Tourist Train</h3>
+                                <p class="card-text pt-2 px-2">IRCTC offers Exclusive Rail tour packages with confirmed
+                                    train
+                                    tickets, sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu
+                                    Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai,
+                                    Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also
+                                    available</p>
+                                <a href="#" class=" ps-2">Read More --&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-lg">
+                            <img src="images/Manali.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3 class="card-title p-2">Rail Tour Packages</h3>
+                                <p class="card-text pt-2 px-2 pb-4 ">IRCTC operates Bharat Gaurav Tourist Train having
+                                    AC III-Tier
+                                    accommodation on train specially designed to promote domestic tourism in India. This
+                                    train runs on various theme based circuits covering pilgrimage and heritage
+                                    destinations in its itinerary on a 5 days to 20 days trip and showcase India’s rich
+                                    cultural heritage</p> <br>
+                                <a href="#" class="ps-2 ">Read More --&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mx-auto shadow-lg" style="width: 23rem;">
+                            <img src="images/HOME_BOTTOM_RIGHT.jpeg" height="624px" class="card-img-top shadow-lg"
+                                alt="...">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- row 2 end  -->
+            </div>
+        </div>
+        <!-- Holiday ssection end  -->
+        <!-- last icons start -->
+
+        <div class="row p-3 my-2 rounded-5 social_icon">
+            <div class="col-md-10 mx-auto ">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="text-white text-end p-2">STAY CONNECTED WITH US</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex">
+                    <a href="#" class="btn btn-primary rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="btn btn-success rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="btn btn-dark rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="btn btn-info rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="btn btn-primary rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-tumblr"></i>
+                    </a>
+                    <a href="#" class="btn btn-warning rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fas fa-ghost"></i>
+                    </a>
+                    <a href="#" class="btn btn-primary rounded-circle mx-1 shadow" style="width: 40px; height: 40px;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+
+
+        <!-- last icons end -->
+        <!-- footer start -->
+        <div class="row footer  rounded-5">
+            <div class="col-md-10 mx-auto p-4 ">
+                <div class="row">
+                    <div class="col-md-3 footer-link">
+                        <h class="p-1 line">IRCTC Trains</h>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">General Information</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Important Information</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Agents</a>
+                        <a href="#" class="d-block text-white text-decoration-none line  p-1">Enquiries</a>
+                    </div>
+                    <div class="col-md-3 footer-link">
+                        <h class="p-1 line">How To</h>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1 ">IRCTC Official App</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Advertise with us</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Refund Rules</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Person With Disability
+                            Facilities</a>
+                    </div>
+                    <div class="col-md-3 footer-link">
+                        <h class="line p-1">IRCTC eWallet</h>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">IRCTC Co-branded Card
+                            Benefits</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">IRCTC-iPAY Payment
+                            Gateway</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">IRCTC Zone</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">DMRC Ticket Booking at
+                            IRCTC</a>
+                    </div>
+                    <div class="col-md-3 footer-link">
+                        <h class="line p-1">Others</h>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">For Newly Migrated
+                            Agents</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Mobile Zone</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Policies</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">Ask Disha ChatBot</a>
+                        <a href="#" class="d-block text-white text-decoration-none line p-1">About us</a>
+                    </div>
+                </div>
+                <hr class="bg-light">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="mb-0">&copy; 2025 My IRCTC. Designed by SATYAM MISHRA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer end -->
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

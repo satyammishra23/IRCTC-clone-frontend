@@ -1,0 +1,83 @@
+body {
+       background-color:rgb(185, 185, 236);
+        font-family: popin;
+    }
+
+    .nav_bg {
+        background: linear-gradient( rgb(24, 24, 158),rgb(246, 243, 243));
+    }
+
+    .nav-link:hover {
+        background-color: rgb(14, 14, 183);
+        color: white;
+        transition: all 0.6s ease-in-out;
+        transform: scale(1.1);
+    }
+
+    .slider {
+       
+        background: url(../images/train.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .slider_h1 {
+        font-size: 60px;
+        color: rgb(40, 40, 124);
+    }
+
+    .card-text {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .last_icon {
+        background: linear-gradient(90deg, rgb(61, 61, 177), rgb(100, 58, 116));
+        
+    }
+
+
+
+         .contact-card {
+            background: rgba(255, 255, 255, 0.7);
+            transition: transform 0.8s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-8px) scale(1.02);
+        }
+
+        .contact-card h4 {
+            color: rgb(24, 24, 158);
+        }
+
+
+        .contact-card a {
+            color: rgb(24, 24, 158);
+            text-decoration: none;
+        }
+
+         .gallary-img {
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            
+        }
+
+        .gallary-img:hover {
+            transform: scale(1.05);
+          
+        }
+
+        .social_icon
+        {
+        background: linear-gradient(to right, #2c236c, #b958a5);
+        }
+        .footer
+        {
+            background-color: rgb(16, 16, 118);
+            color:white;
+            font-size:14px;
+        }
+     .line:hover
+     {
+        border: 1px solid goldenrod;
+     }
